@@ -1,4 +1,4 @@
-package br.com.biblioteca;
+package br.com.biblioteca.model;
 
 public class UsuarioComum extends Usuario {
 
@@ -6,7 +6,6 @@ public class UsuarioComum extends Usuario {
 
     public UsuarioComum(String nome, String cpf) {
         super(nome, cpf);
-        this.limiteEmprestimos = 3;
     }
 
     public int getLimiteEmprestimos() {
